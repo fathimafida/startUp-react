@@ -13,7 +13,7 @@ const Section6 = () => {
       <p className="text-md">Lorem ipsum, dolor sit amet consectetur </p>
       <p className="text-md mb-4">Suscipit nemo hic quos, ab.</p>
 
-      <div className="grid sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-4 gap-3 ">
+      <div className="grid sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-3 ">
         <TeamCard title="Peg Legge" image={Image1} position="CEO" />
         <TeamCard title="Richard Guerra" image={Image2} position="CTO" />
         <TeamCard title="Alexandra Stolz" image={Image3} position="DESIGNER" />
