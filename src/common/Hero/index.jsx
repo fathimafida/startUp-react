@@ -3,7 +3,7 @@ import GroupImg from "../../assets/Group.png";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col-reverse md:flex md:flex-row text-white px-4  bg-[#74C69D]  items-center justify-between">
+    <div className="flex flex-col-reverse md:flex md:flex-row text-white px-8 py-3 bg-[#74C69D]  items-center justify-between">
       <div className="flex flex-col mb-4">
         <h1 className="text-md">WELCOME</h1>
         <p className="text-xl font-bold">Lorem ipsum dolor sit t</p>
@@ -20,7 +20,10 @@ const Hero = () => {
         </button>
       </div>
       <div>
-        <img src={GroupImg} className="w-[480px]  h-[200px] mb-4"></img>
+        <img
+          src={GroupImg}
+          className="w-[450px]  h-[190px]   mb-4"
+        ></img>
       </div>
     </div>
   );

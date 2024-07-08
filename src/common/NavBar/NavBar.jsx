@@ -15,7 +15,7 @@ const NavBar = () => {
     <div className="bg-[#74C69D] flex flex-col mx-auto  px-8 py-3 ">
       <div className="flex  items-center   justify-between ">
         <div className="flex items-center gap-2 ">
-          <img className="h-8  w-8" src={Logo}></img>
+          <img className="h-8  w-8 " src={Logo}></img>
           <h1 className="text-[25px] text-white font-semibold">Start</h1>
         </div>
 
@@ -34,11 +34,7 @@ const NavBar = () => {
           </li>
         </ul>
         <div onClick={handleNav} className="flex  md:hidden text-white">
-          {nav ? (
-            <AiOutlineClose size={20} />
-          ) : (
-            <AiOutlineMenu size={20}  />
-          )}
+          {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
       </div>
 

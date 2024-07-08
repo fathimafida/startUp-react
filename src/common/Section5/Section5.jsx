@@ -1,14 +1,8 @@
-import Group2 from '../../assets/Group 2.png'
+import Group3 from '../../assets/Group3.png'
 
-const Section4 = () => {
+const Section5 = () => {
   return (
-    <div className="flex flex-col md:flex md:flex-row py-3 px-8 items-center justify-center ">
-      <div>
-        <img
-          src={Group2}
-          className="w-[390px]  h-[200px]  mb-4 mr-14 "
-        ></img>
-      </div>
+    <div className="flex flex-col-reverse md:flex md:flex-row py-3 px-8 items-center justify-center ">
       <div className="flex flex-col mb-4">
         <p className="text-xl font-bold">Lorem ipsum dolor sit</p>
         <p className="text-xl font-bold"> amet consectetur </p>
@@ -23,8 +17,11 @@ const Section4 = () => {
           Learn More
         </button>
       </div>
+      <div>
+        <img src={Group3} className="w-[390px]  h-[200px] mb-4 mr-14 "></img>
+      </div>
     </div>
   );
 }
 
-export default Section4
+export default Section5
