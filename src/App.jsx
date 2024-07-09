@@ -1,4 +1,5 @@
 
+import gsap from 'gsap'
 import './App.css'
 import BrandSection from './common/BrandSection/BrandSection'
 import Footer from './common/Footer/Footer'
@@ -8,6 +9,10 @@ import Section4 from './common/Section4/Section4'
 import Section5 from './common/Section5/Section5'
 import Section6 from './common/Section6/Section6'
 
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+
+gsap.registerPlugin(ScrollTrigger)
 function App() {
   
 
